@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Home" />
+        <item
+            android:id="@+id/qrcode"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="qrcode" />
+        <item
+            android:id="@+id/monumento"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="monumento" />
+        <item
+            android:id="@+id/mapa"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="mapa" />
+        <item
+            android:id="@+id/Premio"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Premio" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="sobre" />
+    </group>
+
+
+</menu>
